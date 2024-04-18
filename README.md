@@ -4,7 +4,7 @@
 > [!IMPORTANT]  
 > For more details or instructions of this package, please refer to [MetaR2M](https://github.com/zhichaoxu04/MetaR2M). Here we only provide the simulation settings and computational details for the paper.
 
-[MetaR2M](https://github.com/zhichaoxu04/MetaR2M): A powerful tests for genetic set-based inference with interval-censored competing risks outcomes.
+[MetaR2M](https://github.com/zhichaoxu04/MetaR2M): A novel framework for conducting meta-analyses in high-dimensional settings, specifically for evaluating the R2-based total mediation effect.
 
 We provide the scripts to perform:
 
