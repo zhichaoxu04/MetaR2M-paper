@@ -46,9 +46,9 @@ Download and install following required R packages:
 - Make sure that all the required packages have been installed or
   updated. Here are some of the required packages:
 
-  - Meta
-  - mvmeta
-  - Metafor
-  - aod
-  - metagen
-  - tidyverse
+  - [Meta](https://cran.r-project.org/web/packages/meta/index.html): User-friendly general package providing standard methods for meta-analysis
+  - [mvmeta](https://cran.r-project.org/web/packages/mvmeta/index.html): Collection of functions to perform fixed and random-effects multivariate and univariate meta-analysis and meta-regression.
+  - [Metafor](https://www.metafor-project.org/doku.php/metafor): The package consists of a collection of functions that allow the user to calculate various effect size or outcome measures, fit equal-, fixed-, random-, and mixed-effects models to such data, carry out moderator and meta-regression analyses, and create various types of meta-analytical plots.
+  - [aod](https://cran.r-project.org/web/packages/aod/index.html): Provides a set of functions to analyse overdispersed counts or proportions.
+  - [metagen](http://cran.nexr.com/web/packages/metagen/index.html): Provides methods for making inference in the random effects meta regression model such as point estimates and confidence intervals for the heterogeneity parameter and the regression coefficients vector. 
+  - [tidyverse](https://www.tidyverse.org): The tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures.
