@@ -1,0 +1,15 @@
+#BSUB -J RE.chi[3]
+#BSUB -W 24:00
+#BSUB -o /rsrch3/scratch/biostatistics/zxu7/Rotation/PW/META/Sim/090224/log/RE1_rev_%I.txt
+#BSUB -e /rsrch3/scratch/biostatistics/zxu7/Rotation/PW/META/Sim/090224/log/RE1_rev_%I.txt
+#BSUB -cwd /rsrch3/scratch/biostatistics/zxu7/Rotation/PW/META
+#BSUB -q e40medium
+#BSUB -n 30
+#BSUB -M 300
+#BSUB -R rusage[mem=300]
+#BSUB -u zxu7@mdanderson.org
+
+module load R/4.3.1
+
+Rscript /rsrch3/scratch/biostatistics/zxu7/Rotation/PW/META/Sim/090224/RE_090224.R 30 200 12000 $LSB_JOBINDEX 2024 3 > /rsrch3/scratch/biostatistics/zxu7/Rotation/PW/META/Sim/090224/log/RE1_rev_$LSB_JOBINDEX.txt
+
